@@ -10,6 +10,10 @@
                 <div class="login-form">
                     <form action="" method="post">
                         <div class="form-group">
+                            <label>Username</label>
+                            <input class="au-input au-input--full" type="text" name="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
                             <label>Email Address</label>
                             <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
                         </div>
@@ -17,19 +21,25 @@
                             <label>Password</label>
                             <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
                         </div>
+                        <div class="login-checkbox">
+                            <label>
+                                <input type="checkbox" name="aggree">Agree the terms and policy
+                            </label>
+                        </div>
+                        <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">register</button>
                         <div class="social-login-content">
                             <div class="social-button">
-                                <button class="au-btn au-btn--block au-btn--blue m-b-20">sign in with facebook</button>
-                                <button class="au-btn au-btn--block au-btn--red">sign in with Google</button>
+                                <button class="au-btn au-btn--block au-btn--blue m-b-20">register with facebook</button>
+                                <button class="au-btn au-btn--block au-btn--red">register with Google</button>
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="register-link">
-                    <p>
-                        Don't you have account?
-                        <a href="/register">Sign Up Here</a>
-                    </p>
+                    <div class="register-link">
+                        <p>
+                            Already have account?
+                            <a href="/login">Sign In</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,6 +49,6 @@
 <script>
 
 export default {
-	name: 'Login',
+	name: 'Register',
 };
 </script>

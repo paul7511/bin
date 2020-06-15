@@ -24677,6 +24677,10 @@ section {
   background: #dd4b39;
 }
 
+.au-btn--red:hover {
+  background: #E45F4E;
+}
+
 html,
 body {
   background-color: #fff;
