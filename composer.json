@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "marc-mabe/php-enum": "^4.2"
+        "marc-mabe/php-enum": "^4.2",
+        "phpoffice/phpspreadsheet": "^1.17"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
